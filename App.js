@@ -36,6 +36,7 @@ export default function App() {
 				setCalc('');
 				break;
 			case 'back':
+        display === "Error!!" && setDisplay('');
 				setDisplay((preDisplay) => {
 					let array = preDisplay.split('');
 					array.pop();
@@ -48,15 +49,21 @@ export default function App() {
 				});
 				break;
 			case '=':
-				setResult(eval(calc).toString());
-				setDisplay(eval(calc).toString());
-				setCalc(eval(calc).toString());
-				if (eval(calc) == 0) {
-					setCalc('');
-					setDisplay('');
-				}
+        try {
+          setResult(eval(calc).toString());
+          setDisplay(eval(calc).toString());
+          setCalc(eval(calc).toString());
+          if (eval(calc) == 0) {
+            setCalc('');
+            setDisplay('');
+          }
+        }catch (err) {
+          setDisplay('Error!!');
+          setCalc('');
+        }		
 				break;
 			default:
+        display === "Error!!" && setDisplay('');
 				const str = '1234567890';
 				if (display === '0' && str.indexOf(hardKey) >= 0) {
 					setDisplay('');
@@ -106,25 +113,24 @@ const styles = StyleSheet.create({
 		justifyContent: 'center'
 	},
 	buttonNum: {
-		width: '24.8%',
+		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
 		padding: 30,
-		// backgroundColor: "green",
 		borderWidth: 2,
 		borderColor: 'lightblue'
 	},
 	buttonSym: {
-		width: '24.8%',
+		flex: 1,
 		justifyContent: 'center',
 		alignItems: 'center',
-		padding: 30,
+		padding: 33,
 		backgroundColor: 'lightgrey',
 		borderWidth: 2,
 		borderColor: 'lightblue'
 	},
 	display: {
-		height: '35%',
+		flex: 3,
 		justifyContent: 'center',
 		alignItems: 'center'
 	},
@@ -138,6 +144,8 @@ const styles = StyleSheet.create({
 		color: 'grey'
 	},
 	keyboard: {
-		height: "65%"
+		flex: 7,
+		flexDirection: 'row',
+		justifyContent: 'space-between'
 	}
 });
