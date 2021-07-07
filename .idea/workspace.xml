@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fc61bdd8-2ed0-4ba7-84a2-98d26469a2f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uvVCp8AGdRTZ8T9s11Htrc8au9" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc61bdd8-2ed0-4ba7-84a2-98d26469a2f9" name="Default Changelist" comment="" />
+      <created>1625545924311</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1625545924311</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="93" y="93" width="1319" height="777" key="AVDManager" timestamp="1625546619554">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="93" y="93" width="1319" height="777" key="AVDManager/0.0.1504.963@0.0.1504.963" timestamp="1625546619554" />
+    <state x="254" y="126" key="SettingsEditor" timestamp="1625547765979">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="254" y="126" key="SettingsEditor/0.0.1504.963@0.0.1504.963" timestamp="1625547765979" />
+    <state x="561" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1625545954046">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="561" y="394" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1504.963@0.0.1504.963" timestamp="1625545954046" />
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup" timestamp="1625546616783">
+      <screen x="0" y="0" width="1504" height="963" />
+    </state>
+    <state x="415" y="206" width="672" height="678" key="search.everywhere.popup/0.0.1504.963@0.0.1504.963" timestamp="1625546616783" />
+  </component>
+</project>
