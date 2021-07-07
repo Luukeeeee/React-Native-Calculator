@@ -48,9 +48,9 @@ export default function App() {
 				});
 				break;
 			case '=':
-				setResult(eval(calc));
-				setDisplay(eval(calc));
-				setCalc(eval(calc));
+				setResult(eval(calc).toString());
+				setDisplay(eval(calc).toString());
+				setCalc(eval(calc).toString());
 				if (eval(calc) == 0) {
 					setCalc('');
 					setDisplay('');
